@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--This header will contain the High Score and timer requested for this Challenge-->
+    <!--For every container you make include an id and a class - REMEMBER ALL THE CSS ISSUES YOU HAD LAST TIME! - -->
+    <header>
+      <h6 id="high-scores">View High Scores</h6>
+      <h6 class="timer">Time: <span id="Timer"></span></h6>  
+    </header>
+
+    <!--Create an introduction so that the user knows what they will be doing and how the game will work-->
+    <!--Dont forget to create a class and id for this container to make styling the page more efficient-->
+    <div id="intro" class="display">
+        <div class="Introduction-Container">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Hi, Welcome to Coding Quiz. I am going to generate a series of code related Questions, try to answer as many as you can before the timer runs out. <br> 
+                For every answer you get correct you will be awarded 10 points, but be careful because every answer that is incorrect will deduct 5 points and <br>
+                5 seconds from your remaing time. Good Luck & May the Odds be ever in your favor. </p>
+        </div>
+    </div>
+
+    <!--I need to create a container for High Scores. User should be able to click and view. This means I will have to create a button. **Ref ASWTLJS**-->
+    <!--YOU CAN DO THIS - BREAK IT DOWN- ONE STEP AT A TIME--> <!--check resources on how to build a list. **w3Schools -use <ol> to create a ordered list**-->
+    <!--You may want to consider changing the names to make each container a little more uniqe, this may get very confusing-->
+    <div id="hs" class="hide">
+        <div class="High-Scores-Container">
+            <h2 class="high-score">High Scores</h2>
+            <ol id="hs-list" class="list"</ol>                      <!--You will need to refer to w3Schools for styling options-->
+        </div>
+        <div>
+            <button class="button" id="go-back">Go Back</button>
+            <button class="button" id="clear-high-scores">Clear High Scores</button>
+        </div>
+    </div>
+
+    <!--Now you need a continer for The questions-->
+
+</body>
+</html>
